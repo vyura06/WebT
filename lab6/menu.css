@@ -1,0 +1,107 @@
+.fontOTVET{
+    padding: 10px 32px;
+    background:  #0a043c;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+ }
+
+.otvet{
+    background:  #0a043c;
+    color: white;
+    margin-left: 42%;
+    margin-right: 43%;
+ }
+
+html,body{
+    background-color: lightblue;
+ }
+
+ .arrayForm{
+    padding-top: 1%;
+    padding-left: 42%;
+    padding-right: 43%;
+ }
+ 
+ .arrayForm h3{
+     padding: 16px 32px;
+     background:  #0a043c;
+     text-align: center;
+     color: white;
+     font-size: 30px;
+     font-weight: bold;
+ }
+
+ .arrayForm h2{
+    padding: 10px 32px;
+    background:  #0a043c;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+ }
+
+ input[type=text] {
+    color: black;
+     -webkit-transition: width 0.4s ease-in-out;
+     transition: width 0.4s ease-in-out;
+ }
+ 
+ input[type=text]:focus {
+     width: 40%;
+     background-color: rgb(48, 48, 99);
+ }
+ 
+ input[type=submit] {
+    background-color: #0a043c;
+    border: none;
+    color: white;
+    padding: 16px 58px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
+ 
+.ui-form {
+    width: 20%;
+    padding: 80px 30px 30px;
+    margin-left: 1%;
+ }
+ 
+ .form-row {
+    position: relative;
+ }
+ .form-row input {
+    display: block;
+    padding: 0 10px;
+    line-height: 40px;
+    font-family: 'Roboto', sans-serif;
+    opacity: 1;
+    border-width: 0;
+    border-bottom: 2px solid #0a043c;
+    transition: all 0.2s ease;
+ }
+ .form-row label {
+    position: absolute;
+    left: 13px;
+    color:#0a043c;
+    font-size: 18px;
+    font-weight: 300;
+    transform: translateY(-35px);
+    transition: all 0.2s ease;
+ }
+ .form-row input:focus {
+    outline: 0;
+    border-color: #F77A52;
+ }
+ .form-row input:focus+label, .form-row input:valid+label {
+    transform: translateY(-60px);
+    margin-left: -14px;
+    font-size: 14px;
+    font-weight: 400;
+    outline: 0;
+    border-color: #F77A52;
+    color: #F77A52;
+ }
