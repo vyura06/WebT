@@ -1,9 +1,3 @@
-
-<?php
-$langconst = "";
-include('setLanguage.php');
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,14 +5,34 @@ include('setLanguage.php');
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $langconst['titleIndex'];?></title>
+    <link rel="stylesheet" href="menu.css">
 </head>
 <body>
-<h1><?php echo $langconst['textForNewsPage'];?></h1>
-<a href="news.php?lang=ru"><?php echo $langconst['ruLanguage'];?></a>
-<a href="news.php?lang=en"><?php echo $langconst['enLanguage'];?></a>
-<br>
-<a href="home.php"><?php echo $langconst['titleIndex'];?></a>
-
+<div class="arrayForm">
+        <h1>
+            <div class="colorLang">
+                <?php
+                    $langconst = "";
+                    include('setLanguage.php');
+                ?>
+            </div>
+            <?php echo $langconst['textForNewsPage'];?>
+        </h1>
+        <div class="textInPage">
+                <?php echo $langconst['textInPage'];?>
+        </div>
+        <div class="wrapper">
+            <div class="ruLang">
+                <a href="home.php?lang=ru"><?php echo $langconst['ruLanguage'];?></a>
+            </div>
+            <div class="engLang">
+                <a href="home.php?lang=en"><?php echo $langconst['enLanguage'];?></a>
+            </div>
+            <div class="news">
+                <a href="news.php"><?php echo $langconst['titleNews'];?></a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
 

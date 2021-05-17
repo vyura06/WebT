@@ -1,0 +1,46 @@
+html,body{
+    background-color: lightblue;
+ }
+
+ .arrayForm{
+    text-align: center;
+ }
+
+ .wrapper{
+    margin-top: 1rem;
+    padding-left: 2rem;
+    padding-top: 0.8rem;
+    background-color: #0a043c;
+    text-align: left;
+    display: grid;
+    grid-template-rows: 2rem 2rem 2rem;
+    
+ }
+
+ .colorLang{
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+ }
+
+ .wrapper a{
+    color:white;
+ }
+
+ .arrayForm h1{
+    padding: 1rem;
+    background:  #0a043c;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+ }
+
+ .textInPage{
+    font-size: 1.5rem;
+    height: 1000px;
+    padding: 1rem;
+    background-color: white;
+    color: #0a043c;
+ }
