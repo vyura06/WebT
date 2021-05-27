@@ -23,13 +23,13 @@
         </div>
         <div class="wrapper">
             <div class="ruLang">
-                <a href="home.php?lang=ru"><?php echo $langconst['ruLanguage'];?></a>
+                <a href="news.php?lang=ru"><?php echo $langconst['ruLanguage'];?></a>
             </div>
             <div class="engLang">
-                <a href="home.php?lang=en"><?php echo $langconst['enLanguage'];?></a>
+                <a href="news.php?lang=en"><?php echo $langconst['enLanguage'];?></a>
             </div>
-            <div class="news">
-                <a href="news.php"><?php echo $langconst['titleNews'];?></a>
+            <div class="home">
+                <a href="home.php"><?php echo $langconst['titleNews'];?></a>
             </div>
         </div>
     </div>
